@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="static/css/styles.css">
+    <link rel="shortcut icon" href="static/img/logo_SchoolNet.png" type="image/x-icon">
+    
+    <title>SchoolNet</title>
+</head>
+<body>
+    <div class="select_idioma">
+        <span>Idioma actual:</span>
+        <select>
+            <option>Seleccione un idioma</option>
+            <option>Catalá</option>
+            <option>Deutsch</option>
+            <option>Español (Argentina)</option>
+            <option>Español (Chile)</option>
+            <option>Español (Colombia)</option>
+            <option>Español (Latinoamérica)</option>
+            <option>Español (México)</option>
+            <option>Español (Perú)</option>
+            <option>Español (Uruguay)</option>
+            <option>Español (Venezuela)</option>
+            <option>English (UK)</option>
+            <option>Francais</option>
+            <option>Italiano</option>
+            <option>Portugues (Brasil)</option>
+        </select>
+    </div>
+
+
+    <img src="static/img/Schoolnet.png" alt="Imagen de SchoolNet" class="img_schoolnet">
+    
+    <div class="bloque_form">
+        <h3 class="titulo">Acceso usuarios</h3>
+
+        <form method="POST">
+            <input id="usernameID" type="text" placeholder="Usuario">
+            <input id="passwordID" type="password" placeholder="Contraseña">
+            
+            <div class="bloque_confirm">
+                <a class="enlace_schoolnet" href="https://schoolnet.colegium.com/webapp/es_CL/login" id="olvidar_password">
+                    ¿Olvidaste tu contraseña?
+                </a>
+                
+        
+                <label id="checkboxID" for="checkboxIN">
+                    <input type="checkbox" id="checkboxIN">Recuérdame
+                </label>
+            </div>
+        </form>
+        
+        <a class="enlace_login" href="https://schoolnet.colegium.com/webapp/es_CL/login">
+            <button id="login_button">
+                <label id="label_login" for="login_button">
+                    Iniciar sesión
+                </label>
+            </button>
+        </a>
+
+        <div class="linea"></div>
+
+        <div>
+        <a class="link_google" href="https://mail.google.com">
+            <button id="boton_google"> 
+                <img id="logo_google" src="static/img/google-logo.jpg" alt="Logo de Google">
+                <label for="logo_google">
+                    Iniciar sesión con Google
+                </label>
+            </button>
+        </a>
+        </div>
+    </div>
+
+</body>
+</html>
